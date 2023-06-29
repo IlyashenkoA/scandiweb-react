@@ -1,0 +1,27 @@
+button {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23),inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+  }
+}
+
+#delete-product-btn,
+#add-product-btn {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#add-product-btn ,
+#save-product-btn {
+  background-color: lightgreen;
+}
+
+#delete-product-btn,
+#cancel-product-btn {
+  background-color: lightcoral;
+}
