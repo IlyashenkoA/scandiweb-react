@@ -23,7 +23,7 @@ export const DeleteButton = () => {
           });
       }}
     >
-      Mass Delete
+      MASS DELETE
     </button>
   );
 };

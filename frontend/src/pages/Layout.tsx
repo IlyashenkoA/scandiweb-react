@@ -27,7 +27,7 @@ export const Layout = () => {
           return location.pathname === '/' ? (
             <>
               <Link to='/add-product'>
-                <button id='add-product-btn'>Add</button>
+                <button id='add-product-btn'>ADD</button>
               </Link>
               <DeleteButton />
             </>
