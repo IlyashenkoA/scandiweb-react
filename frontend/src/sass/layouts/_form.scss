@@ -3,7 +3,8 @@
   flex-direction: column;
   gap: 1.5rem;
 
-  width: 30%;
+  width: 100%;
+  max-width: 32.5rem;
 
   &__parameters {
     display: flex;

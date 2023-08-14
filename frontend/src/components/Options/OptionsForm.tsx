@@ -83,7 +83,7 @@ export const OptionsForm = () => {
         />
       ) : productType === 'DVD' ? (
         <Input
-          label='Size (CM)'
+          label='Size (MB)'
           type='number'
           id='size'
           name='parameters'

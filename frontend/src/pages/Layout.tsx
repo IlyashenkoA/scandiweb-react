@@ -1,7 +1,7 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
 
-import { SaveButton } from '../components/buttons/SaveButton';
-import { DeleteButton } from '../components/buttons/DeleteButton';
+import { SaveButton } from '../components/Buttons/SaveButton';
+import { DeleteButton } from '../components/Buttons/DeleteButton';
 
 import { Header } from '../layouts/Header';
 import { Footer } from '../layouts/Footer';
