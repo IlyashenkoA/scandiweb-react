@@ -3,7 +3,7 @@
   <h3 align="center">Scandiweb Test Assignment</h3>
 
   <p align="center">
-    <a href="https://github.com/IlyashenkoA/scandiweb-react">View Demo</a>
+    <a href="https://scandiweb-react.vercel.app/">View Demo</a>
   </p>
 </p>
 
