@@ -4,13 +4,8 @@ header("Access-Control-Allow-Headers: *");
 header("Access-Control-Allow-Methods: *");
 
 require './autoload.php';
-require __DIR__ . '/vendor/autoload.php';
 
 use Scandiweb\Products\DVD;
-use Dotenv;
-
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
 
 $method = $_SERVER['REQUEST_METHOD'];
 
